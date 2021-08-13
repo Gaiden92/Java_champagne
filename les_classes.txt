@@ -1,0 +1,13 @@
+Créer sa classe
+On creer une classe pour représenter une entité ou une idée ou un concept.
+
+Structure 
+
+public                  class                  nomdeclasse 
+(droit d'accés)         mot clef class         généralement le nom du fichier (1 classe par fichiers)
+
+Les attributs
+    Variables qui appartiennent à une classe.
+
+Les méthodes
+    Fonctions qui appartiennent à une classe.

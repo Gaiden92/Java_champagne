@@ -1,0 +1,5 @@
+Pour creer une constante 
+final type NOMBRE = valeur;
+Exemple : final int age = 19;
+Si plusieurs mots pour la constante
+Exemple : final int MA_CONSTANTE = 20;

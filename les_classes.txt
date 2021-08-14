@@ -11,3 +11,11 @@ Les attributs
 
 Les méthodes
     Fonctions qui appartiennent à une classe.
+
+this fait reference a l'instance courante
+super fais reference a la classe "mere"
+final : 
+        sur classe -> signifie qu'une classe ne peut pas être étendue
+        sur methode -> signifie qu'une méthode ne peut pas être réécrit
+        sur attribut -> signifie qu'un attribut ne peut pas être modifié
+extends permet d'étendre une classe

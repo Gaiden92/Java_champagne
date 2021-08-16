@@ -1,4 +1,4 @@
-package ip.abstractC;
+package ip;
 
 public class Chaumiere extends Batiment {
     public Chaumiere(){

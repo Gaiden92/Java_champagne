@@ -1,4 +1,4 @@
-package ip.abstractC;
+package ip;
 
 public class Bateau extends Vehicules implements Flyable {
     public Bateau(){
@@ -13,6 +13,11 @@ public class Bateau extends Vehicules implements Flyable {
     public void voler(String energie){
         System.out.println("Le navire vole a present grace a " + energie);
     }
+
+    public void booster(int x){
+        System.out.println("Le navire est booste de " +x);
+    }
+
     
 
 }

@@ -5,5 +5,7 @@ créer un fichier Nomdevotreinterface.java
 interface Nomdevotreinterface
 {
     votre methode abstraite 
+    //pas de variable private ou protected
 }
 
+Il existe des interfaces fonctionnelles (une seule méthode abstraite)

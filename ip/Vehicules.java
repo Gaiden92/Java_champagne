@@ -1,4 +1,4 @@
-package ip.abstractC;
+package ip;
 
 abstract public class Vehicules {
     protected int m_MovementSpeed;

@@ -2,41 +2,40 @@ import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.StringBufferInputStream;
+import java.util.Arrays;
 
 public class Pendu { 
     public static void main(String[] args) throws Exception { 
-        String motSecret = "Mouton";
+        String motSecret = "mouton";
+        String motCrypte = "******";
+        
+        
         char crypte = '*';
         InputStreamReader str = new InputStreamReader(System.in);
         BufferedReader lire = new BufferedReader(str);
-        System.out.println("Bienvenu dans le pendu");
-
+        System.out.println("Bienvenue dans le pendu");
+        int i = 10;
         do{
-            System.out.println("Devinez le mot secret:" + motSecret);
+            System.out.println("\n Devinez le mot secret: " + motCrypte);
             System.out.println("Entrez une voyelle:");
-            
-            String reponse = lire.readLine();
-            System.out.println("Yes");
-            motSecret = motCrypter(reponse, motSecret);
-            System.out.println(motSecret);
-        }
-        while( motSecret.indexOf(crypte) > 0);
-        
-    }
+            char reponse = lire.readLine().charAt(0);
 
-
-    public static String motCrypter(String x, String mot){
-        String nouveauMot = "";
-        try {
-            if(mot.indexOf(x) == 1){
-                nouveauMot += x;
-            } else {
-                nouveauMot += '*';
+            for(int j = 0; j < motSecret.length(); j++){
+                if(motSecret.charAt(j) == reponse){
+                    char ancienneLettre = motCrypte.charAt(j);
+                    motCrypte += reponse;
+                } else {
+                    motCrypte += '*';
+                }
             }
-        } catch (Exception e) {
-            System.out.println("Merci d'entrez une lettre");
+
+
+           
+            i--;
         }
+        while(i > 0);
         
-        return nouveauMot;
     }
+
+
 }

@@ -1,0 +1,9 @@
+Les interfaces sont des sortes de "contrats" qui permettent ce creer des 
+
+Pour créer une nouvelle interface : 
+créer un fichier Nomdevotreinterface.java
+interface Nomdevotreinterface
+{
+    votre methode abstraite 
+}
+

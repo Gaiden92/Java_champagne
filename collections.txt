@@ -1,0 +1,9 @@
+Quelques méthodes de base l'intefarce collection :
+
+add()
+addAll()
+clear()
+contains()
+isEmpty()
+remove()
+size()

@@ -1,20 +1,20 @@
 public class Personnage {
     //trois constructeur avec surcharge
     public Personnage(){
-        this.m_Nom = "inconnue";
-        this.m_Race = "inconnue";
-        this.m_Force = 0;
-        this.m_Vie = 0;
-        this.m_Sexe = "";
+        this.m_Nom = "inconnu";
+        this.m_Race = "inconnu";
+        this.m_Force = 10;
+        this.m_Vie = 10;
+        this.m_Sexe = "masculin";
 
     }
 
     public Personnage(String nom){
         this.m_Nom = nom;
         this.m_Race = "inconnue";
-        this.m_Force = 0;
-        this.m_Vie = 0;
-        this.m_Sexe = "";
+        this.m_Force = 10;
+        this.m_Vie = 10;
+        this.m_Sexe = "masculin";
 
     }
 
